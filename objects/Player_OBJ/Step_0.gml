@@ -70,6 +70,9 @@ room_goto(Room2)
 else if (room == Room2) {
 room_goto(Room3)
 }
+else if (room == Room3) {
+room_goto(Room6)
+}
 }
 
 if (place_meeting(x,y,DBChest_Obj)) {
